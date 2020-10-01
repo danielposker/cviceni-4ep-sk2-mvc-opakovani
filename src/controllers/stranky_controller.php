@@ -16,4 +16,8 @@ class Stranky
     {
         require_once "views/stranky/profil.php";
     }
+
+    public function novyClanek() {
+        require_once "views/stranky/novyClanek.php";
+    }
 }

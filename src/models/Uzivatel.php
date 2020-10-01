@@ -39,5 +39,5 @@ class Uzivatel
             // uzivatel neexistuje
             return false;
         }
-    }
+    } 
 }

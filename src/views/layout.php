@@ -18,6 +18,7 @@
             {
         ?>
         <a href="<?php echo $zakladni_url; ?>index.php/stranky/profil/">Profil</a>
+        <a href="<?php echo $zakladni_url; ?>index.php/stranky/novyClanek/">Vytvořit článek</a>
         <?php
             }
             else
@@ -33,7 +34,7 @@
         <?php require_once "router.php"; ?>
     </main>
     <footer>
-        &copy; Jakub Šenkýř, 2020
+        &copy; Jakub Šenkýř, Daniel Posker 2020
     </footer>
 </body>
 </html>
