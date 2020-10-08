@@ -17,12 +17,14 @@ class Prispevky {
         {
             $nadpis = trim($_POST["nadpis"]);
             $obsah = trim($_POST["obsah"]);
-            $clanek = new Prispevek($nadpis, $obsah)
+            $clanek = new Prispevek($nadpis, $obsah);
             $clanek->pridatPrispevek();
+
+            return spustit("stranky", "domu");
         }
         else
         {
-            require_once "views/stranky/novyClanek.php";
+            require_once "views/prispevky/novyClanek.php";
         }
     }
 }

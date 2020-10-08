@@ -2,9 +2,6 @@
 
 class Uzivatel
 {
-    private $jmeno;
-    private $heslo;
-
     public function __construct($jmeno, $heslo)
     {
         $this->jmeno = $jmeno;

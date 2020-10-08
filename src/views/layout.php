@@ -18,7 +18,7 @@
             {
         ?>
         <a href="<?php echo $zakladni_url; ?>index.php/stranky/profil/">Profil</a>
-        <a href="<?php echo $zakladni_url; ?>index.php/stranky/novyClanek/">Vytvořit článek</a>
+        <a href="<?php echo $zakladni_url; ?>index.php/prispevky/novyClanek/">Vytvořit článek</a>
         <?php
             }
             else

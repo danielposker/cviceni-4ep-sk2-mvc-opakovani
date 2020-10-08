@@ -6,7 +6,7 @@ $povolene_controllery_a_akce = array(
         "domu",
         "chyba",
         "profil",
-        "novyClanek",
+        "clanek",
     ),
     "uzivatele" => array(
         "registrovat",
@@ -14,7 +14,7 @@ $povolene_controllery_a_akce = array(
         "odhlasit",
     ),
     "prispevky" => array(
-        "pridatClanek",
+        "novyClanek",
     ),
 );
 
