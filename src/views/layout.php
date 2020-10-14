@@ -16,20 +16,20 @@
         <?php
             if(isset($_SESSION["prihlaseny_uzivatel"]))
             {
-        ?>
+                ?>
         <a href="<?php echo $zakladni_url; ?>index.php/stranky/profil/">Profil</a>
-        <a href="<?php echo $zakladni_url; ?>index.php/prispevky/vypis/">Příspěvky</a>
         <a href="<?php echo $zakladni_url; ?>index.php/prispevky/novyClanek/">Vytvořit článek</a>
         <?php
             }
             else
             {
-        ?>
+                ?>
         <a href="<?php echo $zakladni_url; ?>index.php/uzivatele/registrovat/">Registrace</a>
         <a href="<?php echo $zakladni_url; ?>index.php/uzivatele/prihlasit/">Přihlášení</a>
         <?php
             }
-        ?>
+            ?>
+        <a href="<?php echo $zakladni_url; ?>index.php/prispevky/vypis/">Příspěvky</a>
     </header>
     <main>
         <?php require_once "router.php"; ?>
