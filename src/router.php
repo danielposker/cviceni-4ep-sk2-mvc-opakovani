@@ -15,6 +15,7 @@ $povolene_controllery_a_akce = array(
     ),
     "prispevky" => array(
         "novyClanek",
+        "vypis",
     ),
 );
 

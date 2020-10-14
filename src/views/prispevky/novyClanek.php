@@ -5,7 +5,7 @@
 
 <h2>Vytvořit článek</h2>
 <form action="?" method="post">
-    <input type="text" name="nadpis" placeholder="Nadpis..." minlength="5"><br>
-    <textarea placeholder="Obsah..." name="obsah" minlength="5"></textarea><br>
+    <input type="text" name="nadpis" placeholder="Nadpis..." minlength="5" maxlength="16" value="<?php echo $nadpis; ?>" /><br>
+    <textarea placeholder="Obsah..." name="obsah" minlength="5" maxlength="255" value="<?php echo $obsah; ?>" ></textarea><br>
     <input type="submit" value='Přidat'>
 </form>
